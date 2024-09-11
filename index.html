@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="main-header">
+  <h2> Welcome  to  My Mini Project</h2>
+  <p> It's <span class="kata-berwarna">Musyafa Nusia Mulya</span></p>
+  <p class="typing-text">I'm a <span></span></p>
+  </header>
+  <main>
+    <section>
+  <h3 class="Rumus"><a href="#triangle-form">Rumus</a></h3>
+  <p class="Luas-Segitiga"><a href="#triangle-form">Luas Segitiga</a></p>
+    </section>
+
+    <section class="Perhitungan-Luas-Segitiga">
+      <img src="Rumus-Luas-Segitiga.png" alt="">
+      <div class="container">
+        <h1 style="text-align: center;">Luas Segitiga</h1>
+        <form id="triangle-form">
+            <fieldset>
+                <legend>Masukkan Panjang Sisi</legend>
+                <label for="a">Sisi A:</label>
+                <input type="number" id="a" required>
+                <label for="b">Sisi B:</label>
+                <input type="number" id="b" required>
+                <label for="c">Sisi C:</label>
+                <input type="number" id="c" required>
+            </fieldset>
+            <fieldset>
+                <legend>Masukkan Alas dan Tinggi</legend>
+                <label for="base">Alas:</label>
+                <input type="number" id="base" step="0.01" required>
+                <label for="height">Tinggi:</label>
+                <input type="number" id="height" step="0.01" required>
+            </fieldset>
+            <button type="button" onclick="calculateArea()">Hitung Luas</button>
+        </form>
+        <div id="results">
+            <p id="area"></p>
+            <footer>@By Musyafa Nusia Mulya</footer>
+        </div>
+    </div>
+    </section>
+    
+  </main>
+  <script src="js/script.js"></script>
+
+  
+</body>
+</html>

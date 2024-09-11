@@ -1,0 +1,156 @@
+body{
+background-color: #a0f1f1;
+font-family: Arial, sans-serif;
+justify-content: center;
+height: 100vh;
+
+}
+.main-header {
+text-align: center;
+}
+
+.kata-berwarna{
+color: #6f6b72;
+}
+
+.typing-text{
+font-size: 30px;
+font-weight: 600;
+min-width: 280px;
+}
+
+.typing-text span{
+position: relative;
+}
+
+.typing-text span:before{
+content: "Sofware Engineer";
+color: #05acac;
+animation: words 20s infinite;
+}
+
+.typing-text span::after{
+position: absolute;
+width: calc(100% + 8px);
+height: 100%;
+border-left: 3px solid black;
+right: -8;
+}
+
+@keyframes cursor{
+to{
+    border-left: 3px solid #54f1f1;
+
+ }
+}
+
+@keyframes words {
+  0%, 20%{
+      content: "Web Developer";
+  }
+  21%, 40%{
+     content: "Digital Preneur";
+  }
+  31%, 60%{
+     content: "Frontend";
+  }
+  61%, 80%{
+     content: "Web Developer";
+  }
+  81%, 100%{
+    content: "Backend";
+  }
+}
+
+ .Rumus{
+background-color: #08549b;
+font-style: italic;
+text-align: center;
+padding-block: 10px;
+margin-inline: 10px;
+ }
+
+ .Luas-Segitiga{
+background-color: #d90ee0;
+text-align: center;
+padding-block: 15px;
+ }
+
+ .Perhitungan-Luas-Segitiga{
+   display: grid;
+    place-items: center;
+ }
+
+ .container {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px #0000001a;
+   width: 400px;
+   text-align: center;
+}
+
+form {
+   margin-bottom: 20px;
+}
+
+fieldset {
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+legend {
+   font-weight: bold;
+}
+
+label {
+   display: block;
+   margin: 10px 0 5px;
+}
+
+input {
+   width: calc(100% - 22px);
+   padding: 8px;
+   margin-bottom: 10px;
+}
+
+button {
+   padding: 10px 15px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+
+}
+
+button:hover {
+   background-color: #0056b3;
+
+}
+
+#results p {
+   font-size: 1.2em;
+   margin: 5px 0;
+}
+footer{
+text-align: center;
+color: #05acac;
+font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
